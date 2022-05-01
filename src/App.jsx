@@ -1,10 +1,11 @@
 import Expenses from "./components/Expenses";
 import dummyData from "./API/dummyData.jsx";
-console.log(dummyData);
+import Card from "./components/Card";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <Card className="expenses">
       <h1> Expense Tracker</h1>
       <Expenses
         key={dummyData[0].id}
@@ -30,7 +31,7 @@ function App() {
         amount={dummyData[3].amount}
         date={dummyData[3].date}
       />
-    </div>
+    </Card>
   );
 }
 
