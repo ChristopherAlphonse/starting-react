@@ -1,4 +1,4 @@
-# starting
+# Expense Tracker
 
 - Learned how to output full date using .toDateString()
 - Learned how to output Month using .toLocaleString('en-US', {month: "long"})

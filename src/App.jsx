@@ -1,6 +1,6 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 import dummyData from "./API/dummyData.jsx";
-import Card from "./components/Card";
+import Card from "./components/UserInterface/Card";
 import "./App.css";
 
 function App() {
